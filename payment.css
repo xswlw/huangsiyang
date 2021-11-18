@@ -63,20 +63,25 @@ body {
     font-size: 24px;
   }
   
-  .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 100%;
-    border-radius: 3px;
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
     cursor: pointer;
-    font-size: 17px;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
   }
   
-  .btn:hover {
-    background-color: #45a049;
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
   
   a {
